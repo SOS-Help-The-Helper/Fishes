@@ -102,3 +102,58 @@ Full re-edit delivered as `v6/Fishhighlight_v6.mp4.part00..02` — rejoin with:
 - **Night cleanup:** mild denoise on 14 low-light shots.
 - **Unified grade:** gentle warm highlights, +5% saturation, slight contrast across all.
 - **Audio master:** `audio/audio_v6_master.flac` — −13.9 LUFS, −1.5 dBTP.
+
+---
+
+## v7 — lyric ↔ visual map and re-arrangement (2026-07-24)
+
+Songs identified: **Act I — Spencer Crandall, "My Person"** · **Act II — ILLENIUM feat.
+Teddy Swims, "All That Really Matters"**. Runtime 3:24.
+
+| v7 time | Audio (lyric cue / speech) | On screen |
+|---|---|---|
+| 0:00 | waves, terrace reveal | empty ceremony arch over the sea |
+| 0:04 | parents' toast — "I didn't lose a son…" | sunset cocktail party |
+| 0:12 | "I was lookin' for a long time…" | childhood photos (blur-filled) |
+| 0:16 | "…never found nobody like you" | engagement ring reveal |
+| 0:18 | Mai Tai meet-cute verse | coastline, hair & prep, venue |
+| 0:33 | "…that night I'd find my person" | bridal party, groomsmen |
+| 0:37 | chorus: "my heartbeat, my slow dance" | **dad first-look trio (kept)** |
+| 0:40 | "Sunday mornin' sippin' coffee in bed" | **couple vertical + couple arch portraits (new)** |
+| 0:45 | "my best friend…" | groom spins bride; couple at arch |
+| 0:49 | "reason for speedin' home from work" | night string-lights flash-forward |
+| 0:54 | "my savin' grace, my everything" | dad walks bride down the steps |
+| 0:57 | "never been more sure" | hands close-up at the altar |
+| 0:59 | "…that you're my person" | **carry-kiss + night embrace (new)** |
+| 1:02–1:21 | THE VOWS (music ducked) | ceremony wide + two punch-ins |
+| 1:22 | bridge: "Mama, she's the one" | **dad + bride portrait (relocated here)** |
+| 1:30 | "yeah, you're my person" outro | reception-entrance build (brightened) |
+| 1:36 | "I now pronounce you husband and wife" → "Woo!" | ceremony wide, on the musical seam |
+| 1:42 | **restored full chorus entry** "…hold on to / find someone who'll be there for you" | **pool dance floor overhead + couple (new)** |
+| 1:49 | "that's all that really matters in the end" | first dance under the lights |
+| 2:02 | chorus climax | friend-burst montage (8 cuts) |
+| 2:09 | instrumental drop | IG dance clip (brightened, full length) |
+| 2:21 | **single beat-snapped splice** → chorus 2: "Find something you can hold on to" | golden-hour friends block |
+| 2:31 | "find somewhere you can come home to" | couple under purple lights (new) |
+| 2:36 | "find someone that'll die for you" | bachelor-party lifts |
+| 2:39 | "that's all that really matters…" | slow dance, sweetheart table |
+| 2:46 | instrumental outro | pool dance floor, full phrase |
+| 2:57 | night dance wind-down | couple in the dark (new fill) |
+| 2:59 | officiant: "…bless these two… their love is real" | ceremony callback |
+| 3:08 | "you're a force when you're together. I love you guys." | final wide, 1.2 s fade |
+
+### v7 changes from feedback
+- **Chorus visuals re-arranged**: "my person" now belongs to the couple; dad shots kept
+  on "my slow dance" and moved onto "Mama, she's the one."
+- **Cut entirely**: roaming-guests pre-ceremony wide, posed dad portrait (relocated as a
+  1.5 s slice), the full "hard to tell the truth" verse (~21 s — lyrics not wedding-apt),
+  second-half landscape/beach shots (harbor, night vista, Day 3 beach, drone swim),
+  table-setting + car-selfie block visuals.
+- **Song-2 audio smoothed**: ONE beat-snapped splice (141.39 → 174.54 source) with 150 ms
+  fades instead of three butt cuts; full chorus entry line restored so the transition hits.
+- **Mix fix**: ducking now applies only to real speech (toasts/vows/officiant) — v6 was
+  ducking under Teddy Swims' own chorus vocal, thinning the drop.
+- **Night shots brightened**: two-tier gamma/denoise lift (strong <35 luma, medium <45),
+  including the IG clip.
+- **More video, fewer stills** in Act II fills: replaced with first-dance, pool-floor,
+  couple-dance footage freed by the cuts.
