@@ -177,3 +177,14 @@ Teddy Swims, "All That Really Matters"**. Runtime 3:24.
   ("my best friend"), carry-kiss ("…that you're my person").
 - **More voice-over-b-roll**: "you make me laugh" → groom pool candid during vows;
   officiant blessing plays over sunset friends / arch group / night dance.
+
+---
+
+## v9 — no more mirrored-blur (2026-07-24)
+
+Same cut/audio as v8 (2:59.6). Every blurred-clone background replaced:
+- Near-wide clips (active ≥1400 px): full-bleed 16:9 crop, top-biased, light sharpening.
+- True verticals: "album card" — dark warm gradient + vignette, thin frame line.
+- Old photos: borderless cards (their own matting merges into the gradient).
+- IG clip: cropped to content column (full height, no quality loss), carded.
+- 9:16 Reel: gradient canvas instead of blurred clone. Files: `v9/`.
