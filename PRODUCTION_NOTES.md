@@ -221,3 +221,26 @@ Runtime 2:59.5. Files: `v12/` (16:9 parts + 9:16 Reel). Same v11 audio.
 - **Hard cuts kept deliberately** in the party montage, burst, and vows angle-changes.
 - Built as 71 per-piece renders assembled into 39 chapter graphs (xfade) joined
   losslessly at hard cuts.
+
+---
+
+## v14 — no splice, title card, restructured Act II (2026-07-24)
+
+**Runtime 2:59.5 -> 2:27.5.** Files: `v14/` (16:9 parts + 9:16 Reel),
+`audio/audio_v14_master.flac`.
+
+- **Splice eliminated.** Act II no longer replays material heard earlier. The film now
+  exits Act I right after the pronouncement (source 1:42.3) and enters song 2 at its
+  later section (source 3:05.9), then runs continuously to the end of the song. Exactly
+  one music junction in the whole film, and the two cut points are 60 bars apart, both
+  landing on beats with 0 ms error, joined by a 150 ms equal-power crossfade.
+- **The song's own climax now carries the party.** Energy analysis found a break
+  (near-silence) followed by the song's loudest section 13 s after the new entry point.
+  The friend-burst montage was moved to land on it, masked by a white flash.
+- **Act II order:** pool-floor overhead (entry) -> IG dance clip -> couple under purple
+  lights (across the break) -> FLASH -> friend burst (climax) -> bachelor lifts ->
+  night dancing -> pool floor. Coda unchanged.
+- **Title card** ("Tim & Allison / The Wedding Film") over the opening water shot,
+  fading in at 0:00.7 and out by 0:04. No added runtime.
+- **Bug fix:** one punch-in piece was not receiving its transition extension in v12/v13,
+  leaving its dissolve slightly short. Corrected.
