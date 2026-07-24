@@ -206,3 +206,18 @@ into the sunset block. Bride/groom prep and all dad moments kept.
 
 **Audio (v11):** speech ducking eased −7 → −4 dB, dialogue lift +2.5 → +1.5 dB, ramps
 0.75 → 1.2 s — music stays present under toasts/vows/blessing instead of dropping away.
+
+---
+
+## v12 — the transitions cut (2026-07-24)
+
+Runtime 2:59.5. Files: `v12/` (16:9 parts + 9:16 Reel). Same v11 audio.
+
+- **27 dissolves** through the Act I love story and the blessing coda, each side
+  micro-speed-stretched so runtime and music sync are preserved to the frame.
+- **White-flash hits (0.2 s)**: school portrait → young-couple photo (childhood quick-hit
+  pair), pronouncement → pool-floor drop, IG clip → chorus 2 (visually masks the music splice).
+- **Fade-through-black** into the final wide; existing fade-out retained.
+- **Hard cuts kept deliberately** in the party montage, burst, and vows angle-changes.
+- Built as 71 per-piece renders assembled into 39 chapter graphs (xfade) joined
+  losslessly at hard cuts.
