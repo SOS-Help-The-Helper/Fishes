@@ -244,3 +244,32 @@ Runtime 2:59.5. Files: `v12/` (16:9 parts + 9:16 Reel). Same v11 audio.
   fading in at 0:00.7 and out by 0:04. No added runtime.
 - **Bug fix:** one punch-in piece was not receiving its transition extension in v12/v13,
   leaving its dissolve slightly short. Corrected.
+
+---
+
+## v16 — final (2026-07-24)
+
+**2:24.6.** Files: `v16/` (16:9 parts + 9:16 Reel + captions.ass), `audio/audio_v16_master.flac`.
+
+Built from a full labelled catalog of all 80 source shots, so every clip sits in its
+correct chapter. The only deliberate out-of-order moment is the opening toast.
+
+- **Act I — chronological**: island vista + title (Est. 7.24.2023) / welcome party under
+  the parents' toast / family photo / FILM STRIP carrying childhood + four new
+  pre-wedding photos / those photos held individually / arrival + venue / RING REVEAL on
+  the chorus hit at 0:37.7 / getting ready / first look with dad (incl. #55, corrected
+  from "couple" to bride-and-dad) / processional / vows at 1:01.6 (audio and picture
+  aligned) / ceremony / pronouncement at 1:35.6.
+- **Act II — chronological celebration** from the kiss through portraits, formals,
+  cocktail hour, golden hour, the friend burst landing on the song's climax, reception,
+  bachelor party, night dancing.
+- **Coda** — the blessing over the ceremony, closing on their married portrait at the
+  arch in slow motion, fading out.
+- **Removed** per review: #56, #68, #70, #71, plus all reception footage that had been
+  sitting in Act I.
+- **Transitions**: film strip, 16 defocus dissolves, dissolves, whip-pans, white flashes
+  on the ring and the drop. No shutter squeeze.
+- **Captions**: spoken word only (toast, vows, blessing), text supplied by the couple.
+  Pronouncement intentionally uncaptioned.
+- **Mix**: steady −3 dB duck under speech with 1.5 s ramps (replaces envelope-following,
+  which pumped). Officiant filler trimmed; closing line removed.
