@@ -188,3 +188,21 @@ Same cut/audio as v8 (2:59.6). Every blurred-clone background replaced:
 - Old photos: borderless cards (their own matting merges into the gradient).
 - IG clip: cropped to content column (full height, no quality loss), carded.
 - 9:16 Reel: gradient canvas instead of blurred clone. Files: `v9/`.
+
+---
+
+## v10/v11 — couple-focused Act I + gentler ducking (2026-07-24)
+
+Runtime 2:59.6 unchanged. Files: `v11/` (16:9 parts + 9:16 Reel), `audio/audio_v11_master.flac`.
+
+**Act I re-arrangement (video-only):** cocktail crowd trimmed to a 2.5 s glimpse — family
+photo now holds through "I gained a daughter" (freeze + Ken Burns) and returns as a
+zoom-out callback on "Mama, she's the one"; coastline vista → couple slow-dance card;
+venue tent → sweetheart-table laughs; car selfie → couple dance; string-lights
+atmosphere → slow-mo couple slow dance; cove vista → altar close-up punch; group formal →
+family-photo callback; cocktail deck + champagne → intimate night-couple builds.
+Displaced fun moved into Act II: champagne toast into the friends chorus, selfie beat
+into the sunset block. Bride/groom prep and all dad moments kept.
+
+**Audio (v11):** speech ducking eased −7 → −4 dB, dialogue lift +2.5 → +1.5 dB, ramps
+0.75 → 1.2 s — music stays present under toasts/vows/blessing instead of dropping away.
