@@ -157,3 +157,23 @@ Teddy Swims, "All That Really Matters"**. Runtime 3:24.
   including the IG clip.
 - **More video, fewer stills** in Act II fills: replaced with first-dance, pool-floor,
   couple-dance footage freed by the cuts.
+
+---
+
+## v8 — the Reel cut (2026-07-24)
+
+**2:59.6 — Instagram Reel legal.** Files: `v8/Fishhighlight_v8_reel.mp4.part00..02`
+(16:9, rejoin with `cat`), `v8/Fishhighlight_v8_reel_9x16.mp4` (1080×1920, post-ready),
+`audio/audio_v8_master.flac`.
+
+- **Splice rebuilt**: single music cut, out at 2:14.3 on a downbeat, in at "Find
+  somewhere you can come home to" — exactly 37 bars apart so the bar clock never skips.
+  True 150 ms equal-power overlap crossfade + one-beat 2.5 dB pre-dip.
+- **To 3:00 with no new music seams**: IG clip trimmed to 5.4 s inside the instrumental
+  (same single splice, widened), chorus 2's repeated first half dropped, two officiant
+  sentences lifted at speech pauses.
+- **Motion pass**: 4–6% Ken Burns push-ins on stills and static holds; slow pull-out on
+  the final wide; optical-flow slow motion on dad hug ("my slow dance"), bride spin
+  ("my best friend"), carry-kiss ("…that you're my person").
+- **More voice-over-b-roll**: "you make me laugh" → groom pool candid during vows;
+  officiant blessing plays over sunset friends / arch group / night dance.
