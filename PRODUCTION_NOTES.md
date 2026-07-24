@@ -80,3 +80,25 @@ a phrase seam; or hold slow-mo through a vocal line, snap to real time on the ch
   frame; trim the closing wide a few seconds.
 - **The pool dance-floor overhead (3:19–3:27).** Genuinely cinematic — give it the full
   phrase starting at 3:19.
+
+---
+
+## v6 changelog (2026-07-24)
+
+Full re-edit delivered as `v6/Fishhighlight_v6.mp4.part00..02` — rejoin with:
+`cat v6/Fishhighlight_v6.mp4.part* > Fishhighlight_v6.mp4`
+
+- **Runtime 4:01.5 → 3:31.2.** Act II distilled; all splices on lyric-line boundaries.
+  Cut: blurry dance verticals (1:42.1–1:48.5), dark walking shot (2:05.9–2:08.8),
+  instrumental dance block (2:21.3–2:33.9, pool-floor visual relocated over the old
+  food-plate shot), table-setting/car-selfie block (3:04.5–3:09.0), 4 s tail trim.
+  Kept: Instagram dance clip (full), bachelor-party lifts, "Day 3" story clip.
+- **Hinge sharpened:** deeper music duck under "I now pronounce you husband and wife"
+  plus a quick dip before the crowd "Woo!", which now cuts straight to the first dance
+  on "'cause that's all that really matters in the end."
+- **Vow wide intercut:** digital punch-in (1:07–1:10.5) and hands close-up cutaway
+  (1:15.5–1:17.3) break up the 19 s locked wide; vow audio continuous.
+- **Unified verticals:** 25 pillarboxed/letterboxed shots converted to blurred-fill.
+- **Night cleanup:** mild denoise on 14 low-light shots.
+- **Unified grade:** gentle warm highlights, +5% saturation, slight contrast across all.
+- **Audio master:** `audio/audio_v6_master.flac` — −13.9 LUFS, −1.5 dBTP.
