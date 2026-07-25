@@ -316,3 +316,25 @@ only ~25 of 126 pieces re-rendered.
 - Burst at 1:51.89; IG groom clip follows with the handle/logo erased (delogo).
 - Captions in Great Vibes script, placed inside the picture with outline+shadow.
 - Final portrait holds 2 s longer, 3 s fade (video and audio).
+
+---
+
+## v19 — vertical only (2026-07-25)
+
+**2:29.9. `v19/` (vertical parts + captions).** Wide format dropped per request —
+vertical is now the sole deliverable going forward.
+
+- Speech boost raised further: vows +11dB, pronouncement +7dB, blessing +16dB/+18dB.
+- Mother's shot (#6) held 1s longer.
+- Stairs descent (#20,#19, gentle slow-mo) swapped into the "setting the scene" slot;
+  the ceremony/officiant wide (#22) moved to the stairs' old position.
+- Aerial deck shot (#58) removed.
+- The long silent-looking wide (#79) cut from 8.05s to 3.5s.
+- Act II extended ~3s (natural continuation of the same song, no new splice) with two
+  more after-party shots (#36 poolside toast, #62 gold-dress dancing) bridging into the
+  coda instead of an abrupt cut.
+- Coda: #77 swapped for #74 (couple embracing at night) — romantic replacement.
+- **Ending fixed**: previously ~2s of pure digital silence played under the final hold.
+  Replaced with continued (heavily boosted) real stem audio through 237.5s, fading from
+  audible music rather than from nothing.
+- Captions re-timed to the new (longer) Act II boundary.
