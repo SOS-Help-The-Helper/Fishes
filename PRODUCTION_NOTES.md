@@ -387,3 +387,37 @@ stems: delivered audio now matches music+vocals at r=0.97 (was r=0.06 against vo
   result: blessing section -12.1 dB vs party -11.9 dB, i.e. genuinely matched volume
   with no artifacts. Act II's tail is lifted slightly (max +8 dB on real music) to bridge
   smoothly into the bed.
+
+---
+
+## Officiant voice level fix (2026-07-25, v24)
+
+**Cause.** When the bed was rebuilt at party level in v23, the officiant's voice was left
+at the gain it had been given under the old, much quieter bed. Measured in v23: voice
+-33.9 dB against a -12.9 dB bed — his voice sat 21 dB *under* the music. Whisper ASR run
+on the v23 section returned one garbled fragment, confirming it was unintelligible.
+
+**Fix.**
+- Voice restored to its natural source presence (-12 dB active; the source vocal stem
+  measures -17 to -18.5 dB active across every phrase of his blessing, including the
+  "...our mission but to love and serve" line used as the reference — his delivery is
+  even, so one gain serves the whole section). High-passed at 85 Hz, 4:1 compression
+  above -28 dB, light presence lift at 1.8-4.5 kHz.
+- Music bed sidechain-ducked by the voice envelope: 10 dB broadband plus a further 4 dB
+  across 1.2-4.5 kHz (the presence band) so the music loses room for the voice without
+  losing weight. 25 ms attack, 220 ms release, so the bed springs back to -13.4 dB
+  between phrases — effectively still party level (party measures -11.8 dB).
+- Result while he speaks: voice 7.5 dB clear of the bed broadband, 10.5 dB clear in the
+  presence band. Whisper now transcribes the entire blessing accurately.
+- Lookahead limiter at -0.95 dBFS on the section; film peak -0.45 dBFS.
+
+**Ending.** v23 ended at source 234.28, mid-word through "but you're a force when you're
+together" — inaudible while the voice was buried, obvious once it was raised. His
+inter-phrase pauses were tightened to 80% (all still 0.10-0.62 s, his cadence intact),
+reclaiming the ~0.9 s needed to land the phrase complete at 149.75 s with a 0.12 s fade
+before the film ends at 150.048 s. No words added or removed. "I love you guys"
+(source 235.23-236.47) remains outside the film.
+
+Section levels: party -11.8 dB, officiant section -14.3 dB. The section reads lower than
+the party by design — roughly half of it is music ducked under speech. The music itself
+is at party level whenever he is not speaking.
