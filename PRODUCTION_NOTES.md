@@ -511,3 +511,21 @@ A global lookahead limiter was added at the end of the chain: the vows lift push
 +1.09 dBFS, since the previous limiter only covered the officiant region. Final peak
 -0.45 dBFS. Unchanged elsewhere: party -11.8 dB, officiant section -14.3 dB, voice 7.5 dB
 clear of the bed broadband and 10.0 dB in the presence band.
+
+---
+
+## v27 (2026-07-25) — mastered delivery
+
+The film has been vertical (1080x1920) since v17; v27 is that vertical cut with a
+mastering pass on the audio. The v26 mix measured -11.0 LUFS integrated with a -0.4 dBTP
+true peak. Instagram/TikTok/YouTube normalize playback to about -14 LUFS, so a hotter mix
+is simply turned down by the platform, and a -0.4 peak risks clipping in the platform's
+AAC re-encode.
+
+Chain: 28 Hz high-pass (rumble), gentle bus glue (1.5:1 above -16 dB, 25/250 ms), then
+two-pass EBU R128 loudness normalization in **linear** mode — a single gain ride, no
+per-section dynamics processing — so every internal balance (party vs blessing, voice
+over bed, bride's vows lift) is preserved exactly.
+
+Result: -14.0 LUFS integrated, true peak -1.9 dBTP, LRA 3.4 LU. Runtime 151.151 s.
+Deliverables: v20/ parts (video), audio/audio_v27_master.flac.
