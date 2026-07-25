@@ -338,3 +338,21 @@ vertical is now the sole deliverable going forward.
   Replaced with continued (heavily boosted) real stem audio through 237.5s, fading from
   audible music rather than from nothing.
 - Captions re-timed to the new (longer) Act II boundary.
+
+---
+
+## v20 (2026-07-25)
+
+**2:30.0. `v20/`.**
+
+- Ring reveal repositioned to land exactly at 0:35.29 (was drifting to ~0:40.9 after
+  several rounds of duration adjustments elsewhere in Act I). Fixed by trimming back
+  padding on the pieces before it and adding tasteful time to several already-emotional
+  beats after it (first-look sequence, hands close-up, groomsmen, stairs, terrace view,
+  dad+bride portrait), keeping Act I's total length locked to the unchanged audio.
+- "I love you guys" removed from the closing officiant audio (hard-zeroed the vocal
+  stem after 235.10s).
+- Officiant blessing (both halves) remixed: music now sits at full, unducked
+  party-reference volume through this whole section, while the officiant's voice is
+  pulled back (~-9 dB) and given a short multi-tap reverb, so it plays underneath the
+  music instead of on top of it.
