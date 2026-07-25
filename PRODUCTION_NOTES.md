@@ -453,3 +453,61 @@ sentence rather than a fragment.)
 
 Levels unchanged: voice 7.7 dB clear of the bed broadband, 10.5 dB in the presence band;
 music recovers to -14.7 dB between phrases; party -11.8 dB; peak -0.45 dBFS; 150.048 s.
+
+---
+
+## v26 (2026-07-25) — four requested changes
+
+### 1. Filled pauses removed from the blessing
+Whisper omits disfluencies by default; re-running it with a disfluency-primed
+`initial_prompt` surfaced exactly two, and the acoustics agree (sustained, flat-formant
+voiced segments with steady f0 and low spectral flux):
+  - 215.64-215.93 s — "And [uh] so with that energy"
+  - 218.56-218.90 s — "[uh] what I call on the highest power"
+Both excised from the dry vocal stem with 12 ms crossfades at the joins (cuts land in
+low-energy regions, so no click). 0.63 s removed. Verified: the same primed pass over the
+finished v26 mix reports no filler, and the lines read as continuous speech.
+
+Removing the fillers freed enough time to stop compressing his pauses. v24/v25 tightened
+every inter-phrase gap to 80% to make his closing line fit; **v26 restores all pauses to
+full natural length** and still lands the last word at 149.752 s. His pre-lap grew
+slightly (2.59 s, from 2.36 s), starting at 127.676 s.
+
+### 2. Bride lifted under her vows
+Her spoken vows sit at source/timeline 61.66-79.14 s (the captioned range) — the one
+window in that stretch where the vocal stem is her speech rather than the song's vocal
+(everything either side of it, 12-61 s and 79-95 s, is the song's lyrics, which is why the
+lift is bounded to this window and not the whole section).
+Least-squares fit puts her in the mix at +1.66 dB relative to the stem; adding
+alpha = 0.314 of the stem, gated to her speech and faded in/out over 0.25 s, raises her by
+**+2.0 dB**. Window level -16.5 -> -15.6 dB (the smaller section change is expected — music
+dominates the window's RMS).
+
+### 3. Bride/father hug shortened by one second
+The hug is clip i17 (source 38.66-40.17, motion-interpolated slow motion). Cut from 4.85 s
+to 3.85 s by easing the slow-motion factor 3.212x -> 2.551x, so the **whole embrace still
+plays** — it simply lingers less.
+
+The xfade chain makes total length a function of the transition offsets, so a second taken
+out of one shot has to be given to a neighbour or every subsequent shot slides. Sliding was
+not acceptable: the picture is cut to the music, so shifting 100+ seconds of film by a
+second would throw every downstream cut off the beat. The second therefore goes to the
+approach shot immediately before (i16, source 37.37-39.16, slowed 1.210x -> 1.768x with
+`minterpolate` so it does not judder). i16's source cannot be extended instead — there is a
+hard cut in the source at 37.40 s, immediately before its in-point.
+Net: the hug starts a second later (41.97 s instead of 40.97 s) and ends where it did.
+Chapter c00 is byte-for-byte the same duration (112.445667 s), confirming nothing
+downstream moved.
+
+### 4. One second more fade to black
+The film already faded over its last ~3 s. The closing shot (i63) holds one second longer
+(`tpad` stop_duration 6.01 -> 7.05 s) and the fade is now `d=4.0` instead of `d=3.0`.
+Runtime 150.048 -> 151.151 s. The picture now reaches near-full black (luma 2.9 vs 7.3).
+Audio extended to match: the film's closing instrumental continues from source 146.29 s —
+located by cross-correlating the mix's tail against the instrumental stem, so the extra
+second is the genuine continuation of the same passage, not a loop — under a 1.5 s fade.
+
+A global lookahead limiter was added at the end of the chain: the vows lift pushed peaks to
++1.09 dBFS, since the previous limiter only covered the officiant region. Final peak
+-0.45 dBFS. Unchanged elsewhere: party -11.8 dB, officiant section -14.3 dB, voice 7.5 dB
+clear of the bed broadband and 10.0 dB in the presence band.
