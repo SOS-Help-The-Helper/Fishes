@@ -273,3 +273,27 @@ correct chapter. The only deliberate out-of-order moment is the opening toast.
   Pronouncement intentionally uncaptioned.
 - **Mix**: steady −3 dB duck under speech with 1.5 s ramps (replaces envelope-following,
   which pumped). Officiant filler trimmed; closing line removed.
+
+---
+
+## v17 — native vertical + restored music (2026-07-25)
+
+**2:24.6. Two native builds** — `v17/Fishhighlight_v17_vertical.mp4.part*` (1080x1920,
+the primary/post file) and `v17/Fishhighlight_v17_wide.mp4.part*` (1920x1080).
+Rejoin each with `cat <parts> > file.mp4`. Plus both caption files and
+`audio/audio_v17_master.flac`.
+
+- **Native 9:16 build**: vertical clips and portrait photos render full-bleed or
+  near-full-width; landscape clips sit large on the gradient with captions below.
+  No more card-inside-letterbox nesting.
+- **Music mystery solved**: the source file itself ducks the music 14–20 dB under the
+  vows and officiant (baked into the original edit). Restored +8 dB under vows, +5 dB
+  under the pronouncement, +13 dB under the blessing — then mastered to −11.8 LUFS
+  (≈2.5 dB louder overall).
+- Caption corrected: "I lost a son, I gained a daughter."
+- 0:48–1:02 dad run intercut with guests, venue detail, aerial deck, bride+dad (#55).
+- Bridesmaid walk-through cutaway removed; vow cutaways now land on caption lines
+  (Colorado photo on "adventure-seeking spirit", Halloween photo on "make me laugh").
+- Friend burst starts at 1:52.89; groom's IG dance clip follows, then dance-floor
+  and night-dancing footage.
+- Final married portrait: slow-motion + hold, 2.5 s fade.
