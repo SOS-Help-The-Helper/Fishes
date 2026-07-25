@@ -356,3 +356,17 @@ vertical is now the sole deliverable going forward.
   party-reference volume through this whole section, while the officiant's voice is
   pulled back (~-9 dB) and given a short multi-tap reverb, so it plays underneath the
   music instead of on top of it.
+
+---
+
+## Audio regression fix (2026-07-25)
+
+**Bug:** in v19 the vocal-stem gain was changed from a dB array to a linear multiplier
+that was ZERO outside the speech regions. This silently muted every sung vocal in both
+songs for the whole film — only the instrumental backing and the spoken audio survived.
+v18 and earlier were unaffected.
+
+**Fix:** vocal stem restored to unity gain throughout, with the two deliberate
+exceptions kept intact — the reverbed/pushed-back officiant treatment, and the hard mute
+after 235.10 s that removes the closing line. Verified by correlation against the source
+stems: delivered audio now matches music+vocals at r=0.97 (was r=0.06 against vocals).
