@@ -7,7 +7,7 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
-Style: Sp,Liberation Serif,54,&H00F3FAFD,&H00F3FAFD,&HA0000000,&H00000000,0,0,0,0,100,100,3.0,0,1,2.0,1.6,2,50,50,850,1
+Style: Sp,Liberation Serif,27,&H00F3FAFD,&H00F3FAFD,&HA0000000,&H00000000,0,0,0,0,100,100,3.0,0,1,1.4,1.1,2,50,50,850,1
 
 [Events]
 Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
