@@ -297,3 +297,22 @@ Rejoin each with `cat <parts> > file.mp4`. Plus both caption files and
 - Friend burst starts at 1:52.89; groom's IG dance clip follows, then dance-floor
   and night-dancing footage.
 - Final married portrait: slow-motion + hold, 2.5 s fade.
+
+---
+
+## v18 (2026-07-25)
+
+**2:26.8, both formats in `v18/`** (vertical = primary). Built with piece-level reuse —
+only ~25 of 126 pieces re-rendered.
+
+- Ring reveal at exactly 0:36.42.
+- Film strip cut to 2 photos (school portrait + young-couple photo); no photo appears
+  twice anywhere (pumpkin/mountain held once in the open; Colorado and Halloween photos
+  appear only at their matching vow lines).
+- Landscape photos letterbox at full width in vertical (no more couples cropped
+  off-frame); portrait photos stay full-bleed.
+- Father-daughter dance (#55) moved to Act II; hands close-up extended (slow-mo) at
+  0:59; officiant-visible clip removed from the song section.
+- Burst at 1:51.89; IG groom clip follows with the handle/logo erased (delogo).
+- Captions in Great Vibes script, placed inside the picture with outline+shadow.
+- Final portrait holds 2 s longer, 3 s fade (video and audio).

@@ -1,0 +1,27 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Sp,Great Vibes,54,&H00FFFFFF,&H00FFFFFF,&HC0141414,&H80000000,0,0,0,0,100,100,0.5,0,1,2.6,2.2,2,50,50,850,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:04.50,0:00:06.55,Sp,,0,0,0,,{\fad(280,280)}I have a daughter now, I'm happy.
+Dialogue: 0,0:00:08.14,0:00:09.90,Sp,,0,0,0,,{\fad(280,280)}I lost a son, I gained a daughter.
+Dialogue: 0,0:00:10.98,0:00:12.40,Sp,,0,0,0,,{\fad(280,280)}She's the greatest.
+Dialogue: 0,0:01:01.66,0:01:04.20,Sp,,0,0,0,,{\fad(280,280)}I love the way I feel when I'm with you.
+Dialogue: 0,0:01:04.26,0:01:08.35,Sp,,0,0,0,,{\fad(280,280)}Like an elevated and better version of my truest self.
+Dialogue: 0,0:01:08.42,0:01:12.05,Sp,,0,0,0,,{\fad(280,280)}I love your competitive, adventure-seeking spirit.
+Dialogue: 0,0:01:12.14,0:01:15.70,Sp,,0,0,0,,{\fad(280,280)}I love how you challenge me — but never let me win.
+Dialogue: 0,0:01:15.78,0:01:19.20,Sp,,0,0,0,,{\fad(280,280)}I love how you make me laugh.
+Dialogue: 0,0:02:08.94,0:02:11.34,Sp,,0,0,0,,{\fad(280,280)}So with that energy, right here in this moment,
+Dialogue: 0,0:02:11.44,0:02:14.04,Sp,,0,0,0,,{\fad(280,280)}I want to call on the highest power of love from above
+Dialogue: 0,0:02:14.12,0:02:16.94,Sp,,0,0,0,,{\fad(280,280)}to bless these two on their special day.
+Dialogue: 0,0:02:17.04,0:02:18.94,Sp,,0,0,0,,{\fad(280,280)}Because their love is real.
+Dialogue: 0,0:02:19.17,0:02:22.32,Sp,,0,0,0,,{\fad(280,280)}So Tim, Allison — you're a movement by yourselves,
+Dialogue: 0,0:02:22.40,0:02:24.67,Sp,,0,0,0,,{\fad(280,280)}but you're a force when you're together.
