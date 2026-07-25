@@ -370,3 +370,20 @@ v18 and earlier were unaffected.
 exceptions kept intact — the reverbed/pushed-back officiant treatment, and the hard mute
 after 235.10 s that removes the closing line. Verified by correlation against the source
 stems: delivered audio now matches music+vocals at r=0.97 (was r=0.06 against vocals).
+
+---
+
+## Officiant audio rebuild + ring swap (2026-07-25)
+
+- **Ring / groomsmen swapped.** Groomsmen now precede the ring; the white flash moved
+  with it so it still announces the ring. Ring lands at exactly 0:36.07.
+- **Officiant captions removed** — that whole closing section now plays uncaptioned.
+- **Officiant audio rebuilt.** The previous version boosted the source music stem by
+  +19/+26 dB under the blessing, but the music there sits at only -33 dB / -49 dB in the
+  source (separation residue, not real music), so the boost amplified artifacts — the
+  "mangled" sound. Replaced with a clean instrumental bed lifted from an unused
+  full-level passage of the same song (source 128-146 s, never heard elsewhere in the
+  film), with the officiant's voice sitting underneath it with light reverb. Measured
+  result: blessing section -12.1 dB vs party -11.9 dB, i.e. genuinely matched volume
+  with no artifacts. Act II's tail is lifted slightly (max +8 dB on real music) to bridge
+  smoothly into the bed.
