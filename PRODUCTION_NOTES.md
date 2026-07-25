@@ -421,3 +421,35 @@ before the film ends at 150.048 s. No words added or removed. "I love you guys"
 Section levels: party -11.8 dB, officiant section -14.3 dB. The section reads lower than
 the party by design — roughly half of it is music ducked under speech. The music itself
 is at party level whenever he is not speaking.
+
+---
+
+## Opening line of the blessing (2026-07-25, v25)
+
+Once the officiant was audible (v24), the first words of his section played as garble.
+Cause: the section's audio began at source 214.5 s, which falls *inside* the last word of
+"for what is our mission in life but to love and serve" — the film was cutting in
+mid-word. Whisper read v24's opening as "but can serve", matching the report exactly.
+
+The line actually runs source 212.52-214.98 (clean 0.70 s of silence ahead of it). The
+officiant track now starts there, so the line plays whole. His speech no longer fits
+between 130.268 s and the end of the film, so it is **pre-lapped 2.36 s** — his voice now
+begins at 127.91 s, over the dissolve out of the reception, and the picture cuts to the
+ceremony under him. He is voiceover here, not on-camera, so there is no sync to break,
+and the pre-lap reads as a deliberate lead-in. Ducking was extended back over the pre-lap
+so the reception music steps aside for him.
+
+The officiant track is now built in one pass from the isolated vocal stem
+(scripts/mixv25.py) rather than inheriting the older processed file: 85 Hz high-pass,
+4:1 above -28 dB, presence lift at 1.8-4.5 kHz, 0.38 s room at 16% wet, normalised to
+-12 dB active. Same ducking as v24 (10 dB broadband + 4 dB across 1.2-4.5 kHz).
+
+Verification (Whisper, small model, run on the finished mix):
+  v24: "but can serve and so with that energy..."
+  v25: "But one is our mission here on Earth, but to love and serve." / "And so with that
+       energy right here in this moment," / ... / "but you're a force when you're together."
+(ASR mishears "for what" and "in life"; what matters is the line now reads as a complete
+sentence rather than a fragment.)
+
+Levels unchanged: voice 7.7 dB clear of the bed broadband, 10.5 dB in the presence band;
+music recovers to -14.7 dB between phrases; party -11.8 dB; peak -0.45 dBFS; 150.048 s.
