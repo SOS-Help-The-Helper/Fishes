@@ -7,7 +7,7 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
-Style: Sp,Great Vibes,54,&H00FFFFFF,&H00FFFFFF,&HC0141414,&H80000000,0,0,0,0,100,100,0.5,0,1,2.6,2.2,2,50,50,850,1
+Style: Sp,Liberation Serif,40,&H00FFFFFF,&H00FFFFFF,&HC0141414,&H80000000,0,0,0,0,100,100,3.0,0,1,2.0,1.6,2,50,50,850,1
 
 [Events]
 Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
